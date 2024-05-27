@@ -1,0 +1,12 @@
+app.jsx <= 여기에 import 해줘야함
+          <- 이게 실행되는 파일!
+          <= return문에다가 코드용을 실행해줘야함<코드></코드>	
+
+양식용.jsx <= 여기에는 html <div> <span>
+	 <= 아예 css 정보도 여기서 적어서 그대로 적용 가능 display: flex
+	 <- 데이터 받은 것을 이 양식대로 만들어주니 살짝 클래스 느낌?
+
+코드용.jsx <= 여기는 데이터 입력
+	 <= 여기서 양식용 import해줘야함
+	 <= 그리고 return문에다가 양식용으로 데이터를 보내줘야함! <양식 name={props.name} introduction={props.introduction}>
+
